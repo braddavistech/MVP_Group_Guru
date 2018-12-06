@@ -1,0 +1,55 @@
+.navbar {
+  background-color: white;
+}
+.nav-item {
+  margin-bottom: .5%;
+}
+.nav {
+  width: 75%;
+}
+.navLink {
+  color: var(--section--title-headers);
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+  list-style-type: none;
+}
+.navLink:hover {
+  color: var(--label--form-text);
+  text-decoration: none;
+}
+.hide {
+  display: none;
+}
+.navLinkP {
+  color: #e65b11 ;
+  border-radius: 9px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0px ;
+  flex-direction: column;
+}
+.navLinkP:hover {
+  color: var(--label--form-text);
+}
+#logOutDropdown {
+  position: fixed;
+  top: 0px;
+  width: 20%;
+  right: 0%;
+  background-color: white;
+  text-align: center;
+  border-radius: 9px;
+}
+#logOutBtn {
+  padding-left: 3vw;
+  padding-right: 3vw;
+  position: relative;
+}
+#logOutBtn:hover {
+  text-decoration: none;
+  background-color: none;
+}
+

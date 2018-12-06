@@ -1,0 +1,89 @@
+#joinGroupForm {
+  position: fixed;
+  padding: 15px;
+  padding-left: 2%;
+  padding-right: 2%;
+  top: 125px;
+  width: 85%;
+  height: 325px;
+  margin-left: 7.5%;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: white;
+}
+#joinGroupTitle {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: var(--label--form-text);
+}
+.groupInputSection {
+  width: 100%;
+  height: var(--input--form-height);
+  max-height: 30px;
+  text-align: center;
+  font-size: var(--input--form-fontSize);
+  font-weight: bold;
+  border-radius: 10px;
+  color: var(--input--form-text);
+}
+.joinGroup {
+  width: 100%;
+  height: 45px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: var(--newUser--label-text);
+  color: var(--label--form-text);
+}
+#groupSelectAlert {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-size: .65em;
+  font-style: italic;
+  position: relative;
+  color: red;
+}
+#groupSelect {
+
+}
+.groupOption {
+
+}
+#groupDescription {
+  font-size: 18px;
+  margin-top: 20px;
+  color: var(--label--form-text);
+}
+#groupDescriptionText {
+  border: 1px solid;
+  border-radius: 5px;
+  color: black;
+  font-size: 15px;
+}
+.joinGroupDualButton {
+  display: flex;
+  width: 95.5%;
+  position: absolute;
+  bottom: 0px;
+}
+.groupButton {
+  width: 50%;
+  margin: auto;
+  max-width: 160px;
+  border: 2px solid black;
+  border-radius: 9px;
+  font-weight: bold;
+  margin-bottom: 2vw;
+}
+.groupButtonSingle {
+  width: 75%;
+  margin: auto;
+  max-width: 200px;
+  border: 2px solid black;
+  border-radius: 9px;
+  font-weight: bold;
+  margin-bottom: 2vw;
+}

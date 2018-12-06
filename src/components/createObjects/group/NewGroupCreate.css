@@ -1,0 +1,80 @@
+#newUserForm {
+  position: fixed;
+  padding: 2%;
+  top: 125px;
+  width: 85%;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: white;
+}
+.newUserInputSection {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: .5%;
+}
+.newUserLabel {
+  width: 100%;
+  margin-bottom: 0px;
+  text-align: left;
+  font-weight: bold;
+  font-size: var(--newUser--label-text);
+  color: var(--label--form-text);
+}
+.newUserInput {
+  width: 100%;
+  height: var(--input--form-height);
+  max-height: 30px;
+  text-align: center;
+  font-size: var(--input--form-fontSize);
+  font-weight: bold;
+  border-radius: 10px;
+  color: var(--input--form-text);
+  background-color: var(--input--form-background);
+}
+#newGroupDescription {
+  width: 100%;
+  height: calc(48px + 10vw);
+  max-height: 200px;
+  text-align: center;
+  font-size: var(--input--form-fontSize);
+  font-weight: bold;
+  border-radius: 10px;
+  color: var(--input--form-text);
+  background-color: var(--input--form-background);
+}
+#newGroupTypeRadioSection {
+  width: 95%;
+  margin-left: 2.5%;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.newUserRadioLabel {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: var(--newUser--label-text);
+  color: var(--label--form-text);
+}
+.newUserRadioBtn {
+  margin: auto;
+}
+#alertPreference {
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: calc(12px + 1.25vw);
+  color: var(--label--form-text);
+}
+#newUserBtn {
+  width: 50%;
+  max-width: 160px;
+  border: 2px solid black;
+  border-radius: 9px;
+  font-weight: bold;
+  margin-bottom: 2vw;
+}
+.newUserDualButton {
+  display: flex;
+  justify-content: space-evenly;
+}

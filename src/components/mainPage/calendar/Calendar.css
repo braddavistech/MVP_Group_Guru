@@ -1,0 +1,45 @@
+.rbc-calendar {
+  height: 92.5%;
+  padding: 1%;
+}
+.rbc-toolbar {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 1%;
+}
+.rbc-toolbar-label {
+  font-weight: bold;
+  padding-top: 1% !important;
+  padding-bottom: 1% !important;
+  width: 50%;
+}
+.rbc-header {
+  text-align: center !important;
+}
+.rbc-agenda-view table.rbc-agenda-table .rbc-agenda-time-cell {
+  width: 20%;
+  padding-left: 1%;
+  padding-right: 1%;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+.rbc-agenda-date-cell {
+  width: 20%;
+  padding-left: 1%;
+  padding-right: 1%;
+  font-weight: bold;
+  font-size: 15px;
+}
+.rbc-agenda-event-cell {
+  width: 20%;
+  padding-left: 1%;
+  padding-right: 1%;
+  font-weight: bold;
+  font-size: 15px;
+}
+.rbc-btn-group button {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  font-weight: 500;
+}

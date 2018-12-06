@@ -1,0 +1,68 @@
+#newImage {
+  position: absolute;
+  top: 24px;
+  right: 0px;
+  padding: .5%;
+  padding-top: 0px;
+  font-weight: bold;
+  text-align: center;
+  height: 90%;
+  width: 30%;
+  border-left: 2px solid;
+  background-color: white;
+}
+#newImageHeader {
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+.imageInputContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.imageBodyInputContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.newImageLabel {
+  margin-bottom: 3px;
+  line-height: 1;
+}
+#newTitle {
+  width: 100%;
+  height: 24px;
+  text-align: center;
+}
+#imageBody {
+  width: 100%;
+  height: 24px;
+  text-align: center;
+}
+#newImageButtonContainer {
+  margin: auto;
+  padding-top: 5px;
+}
+#newImageCreateBtn {
+  width: 125px;
+  border: 2px solid black;
+  border-radius: 9px;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-top: 7px;
+  overflow: hidden !important;
+}
+.alertSection {
+  height: 15px;
+}
+.alert {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+  position: relative;
+  color: red;
+}

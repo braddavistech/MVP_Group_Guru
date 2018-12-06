@@ -1,0 +1,96 @@
+#existingUserForm {
+  position: fixed;
+  padding: 2%;
+  top: 100px;
+  width: 85%;
+  margin-left: 7.5%;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: white;
+}
+#logoContainer {
+  margin-bottom: 3%;
+}
+#logoForLogin {
+  width: 15%;
+  display: inline-flex;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+#welcomeLoginMessage {
+  display: inline-block;
+  width: 70%;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: middle;
+}
+#welcome {
+  margin: 0;
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+}
+#to {
+  margin: 0;
+  font-size: 40px;
+  line-height: 1;
+}
+#loginNavButtonContainer{
+  width: 100%;
+  margin-top:2%;
+  justify-content: space-evenly;
+  display: flex;
+}
+.loginNavButton{
+  width: 40%;
+  border: 4px solid #e65b11;
+  font-weight: bold;
+  border-radius: 20px;
+  text-align: center;
+}
+.hide {
+  display: none;
+}
+.alert {
+  margin: 0px;
+  padding: 0px;
+  margin-left: 3%;
+  font-size: .65em;
+  font-style: italic;
+  position: relative;
+  color: red;
+  align-self: center;
+}
+#saveLoginInfoLabel {
+  font-weight: bold;
+  margin: 0px;
+  margin-top: 5px;
+  text-align: center;
+  color: var(--label--form-text);
+}
+#saveLoginInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.indivRadioBtn {
+  display: flex;
+  margin-left: 3%;
+  margin-right: 3%;
+  flex-direction: column;
+}
+.newUserRadioLabel {
+  font-size: 14px;
+}
+.existingUserRadio {
+  align-self: center;
+}
+.forgotPassword {
+  font-weight: bold;
+  margin: 0px;
+  margin-top: 10px;
+  text-align: center;
+  color: var(--label--form-text);
+  cursor: pointer;
+}

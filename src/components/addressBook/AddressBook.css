@@ -1,0 +1,181 @@
+#addressBookContainer {
+  margin-top: 57px;
+  background-color: gray;
+  width: 95%;
+  margin-left: 2.5%;
+  padding: 10px;
+}
+#mainAddressBookTitle {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+#addContactBtn {
+  color: var(--section--title-headers);
+  border: 3px solid var(--section--title-headers);
+  font-weight: bold
+}
+#allUserCards {
+  height: 500px;
+  overflow-y: hidden;
+  overflow: scroll;
+  margin-bottom: 10px;
+}
+.userAddressCard {
+  background-color: white;
+  margin: 2%;
+  border: 3px solid black;
+  padding: 5px;
+  border-radius: 8px;
+}
+.addressBookSection {
+  display: flex;
+  margin: 3px;
+}
+.addressBookSectionEmail {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3px;
+}
+.addressFullLine {
+  font-weight: bold;
+  width: 60%;
+  margin-bottom: 0px;
+}
+.memberLastOnline {
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 10px;
+  border: 3px solid var(--section--title-headers);
+  background-color: var(--input--form-background);
+}
+.addressSectionLabel {
+  font-weight: bold;
+  width: 40%;
+  margin-bottom: 0px;
+}
+.addressEmailLink {
+  color: var(--section--title-headers);
+  border: 3px solid var(--section--title-headers);
+  font-weight: bold;
+  text-decoration: none;
+  padding: 3px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.addressEmailLink:hover {
+  background-color: var(--section--title-headers);
+  color:white;
+  border: 3px solid grey;
+  text-decoration: none;
+}
+.addressJoinedGroupGuru {
+  margin-bottom: 0px;
+  text-align: center;
+  font-weight: bold;
+  color: var(--label--form-text);
+}
+.addressBookSectionBtns {
+  padding: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.addressIndivMemberBtn {
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.addressBookMainBtnsSection {
+  display: flex;
+  justify-content: space-evenly;
+}
+.addressBookMainButton {
+  width: 15%;
+  border: 2px solid var(--section--title-headers);
+  color: var(--section--title-headers);
+  font-weight: bold;
+  border-radius: 10px;
+}
+.addressBookMainButton:hover {
+  background-color: var(--section--title-headers);
+  color:white;
+  border: 2px solid grey;
+}
+.editUserAlert {
+  position: absolute;
+  background-color: white;
+  text-align: center;
+  top: 0px;
+  width: 60%;
+  margin-left: 20%;
+  padding: 10px;
+  padding-top: 0px;
+  border-radius: 10px;
+  border: 3px solid;
+  z-index: 1031;
+}
+.editUserinputSection {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: .5%;
+}
+.editUserLabel {
+  width: 100%;
+  line-height: 1;
+  margin-bottom: 0px;
+  text-align: left;
+  font-weight: bold;
+  font-size: var(--newUser--label-text);
+  color: var(--label--form-text);
+}
+.editUserInput {
+  width: 100%;
+  height: var(--input--form-height);
+  max-height: 30px;
+  text-align: center;
+  font-size: var(--input--form-fontSize);
+  font-weight: bold;
+  border-radius: 10px;
+  color: var(--input--form-text);
+  background-color: var(--input--form-background);
+}
+.editInfoBtnSection {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.editInfoBtn {
+  width: 165px;
+  font-weight: bold;
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 5px;
+  border: 2px solid;
+  cursor: pointer;
+  text-decoration: none;
+}
+.editOtherUserInputSection {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 2%;
+  border-radius: 10px;
+  background-color: lightgray;
+
+}
+.editOtherUserInfo {
+  width: 100%;
+  line-height: 1;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: var(--newUser--label-text);
+  color: var(--label--form-text);
+}

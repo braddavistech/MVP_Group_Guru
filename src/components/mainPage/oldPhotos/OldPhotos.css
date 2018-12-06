@@ -1,0 +1,129 @@
+#oldPhotos {
+  display: inline-block;
+  background-color: black;
+  text-align: center;
+  height: 100%;
+}
+.indivPhotos {
+  display: inline-block;
+  color: black;
+  height: 100%;
+}
+.photoSectionWithZoom {
+  height: 92%;
+}
+.zoomBtn {
+  position: relative;
+  display: flex;
+  bottom: 30px;
+  width: 30px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 14px;
+  cursor: pointer;
+}
+.editPhotoBtn {
+  position: relative;
+  display: flex;
+  bottom: 60px;
+  right: 0px;
+  width: 30px;
+  margin-left: 50px;
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 1px;
+  cursor: pointer;
+}
+.oldPhotosTitle {
+  background-color: white;
+  font-weight: bold;
+  font-size: 13px;
+  padding-left: 4px;
+  padding-right: 4px;
+  line-height: 1;
+  margin: 0px;
+  padding-bottom: 2px;
+  border-right: 1px solid;
+  border-bottom: .25px solid;
+}
+.oldPhotosImage {
+  margin: 0px;
+  height: 100%;
+  position: relative;
+}
+.photoDetails {
+  background-color: white;
+  width: 70%;
+  max-height:80%;
+  border: 5px solid;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1031;
+}
+#photoTitleTextDiv {
+  width: 100%;
+}
+#photoDetailsHeader {
+  margin-bottom: 0px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.photoTextDescription {
+  margin: 0px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.25;
+}
+.photoTextDetails {
+  margin: 0px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.25;
+}
+#photoDetailsImage {
+  max-width: 97%;
+  margin-bottom: 5px;
+  max-height: 500px;
+  margin-top: 10px;
+
+}
+#react-confirm-alert-firm-svg {
+  display: none;
+}
+#photoBtnSection {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+.photoConfirmation {
+  width: 165px;
+  font-weight: bold;
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 5px;
+  border: 2px solid;
+  cursor: pointer;
+}
+.photoConfirmation:hover {
+  background-color: grey;
+  color: white;
+}
+#mailToPhoto {
+  color:black;
+  border-radius: 5px;
+}
+#mailToPhoto:hover {
+  background-color: grey;
+  color: white;
+  text-decoration: none;
+}
+#tagLine {
+  padding: 5px;
+}
+.newImageLabel {
+  margin-bottom: 3px;
+  line-height: 1;
+}

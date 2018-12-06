@@ -1,0 +1,193 @@
+#oldMessages {
+  height: 92%;
+  overflow: scroll;
+}
+.indivMessageOther {
+  border-bottom: 0.25px solid;
+  background-color: var(--messages--otherUser);
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+.indivMessageOwner {
+  border-bottom: 0.25px solid;
+  background-color:var(--messages--currentUser);
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+.oldMsgTitle {
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  padding-bottom: 5px;
+  line-height: 1;
+  margin: 0px;
+}
+.oldMsgInfo {
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  padding-bottom: 1px;
+  line-height: 1;
+  margin: 0px;
+}
+.oldMsgTitleOwner {
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  padding-bottom: 5px;
+  line-height: 1;
+  margin: 0px;
+  justify-content: flex-end;
+}
+.oldMsgBody {
+  margin: 0px;
+  line-height: 1;
+  font-size: 15px;
+}
+#userInfo {
+  margin-bottom: 0px;
+  padding-top: 2px;
+}
+.messageAlert {
+  position: absolute;
+  background-color: white;
+  text-align: center;
+  margin-top: 3%;
+  width: 60%;
+  margin-left: 20%;
+  padding: 20px;
+  border-radius: 10px;
+  border: 3px solid;
+  z-index: 1031;
+}
+#messageEditTitle {
+ font-size: 25px;
+ font-weight: bold;
+}
+#messageEditInputSection {
+  display: flex;
+  flex-direction: column;
+}
+.messageEditLabel {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px;
+  margin-top: 3%;
+}
+.messageTitleInput {
+  text-align: center;
+  line-height: 1.25;
+  background-color: var( --input--form-background);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.messageBodyInput {
+  background-color: var( --input--form-background);
+  padding-left: 5px;
+  padding-right: 5px;
+  line-height: 1.25;
+}
+/* #editDelete {
+  position: relative;
+  display: flex;
+  left: 4px;
+  height: 18px;
+}
+.saveBtn {
+  width: 64px;
+  margin-right: 10px;
+  border: 2px solid var(--input--form-background);
+  border-radius: 8px;
+  font-weight: bold;
+  color:grey
+}
+.saveBtn:hover{
+  color:black;
+  border: 2px solid var(--section--title-headers);
+}
+.editBtn {
+  width: 64px;
+  margin-right: 5px;
+  border: 2px solid var(--input--form-background);
+  border-radius: 8px;
+  font-weight: bold;
+  color:grey;
+}
+.editBtn:hover {
+  color:black;
+  border: 2px solid var(--section--title-headers);
+}
+.deleteBtn {
+  width: 64px;
+  border: 2px solid var(--input--form-background);
+  border-radius: 8px;
+  font-weight: bold;
+  color: grey;
+}
+.deleteBtn:hover {
+  color: black;
+  border: 2px solid var(--section--title-headers);
+} */
+#endOfMessages {
+  margin-bottom: 0px;
+  text-align: center;
+  font-weight: bold;
+}
+.deleteAlert{
+  background-color: white;
+  width: 70%;
+  border: 5px solid;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+  position: relative;
+  top: 55px;
+  z-index: 1031;
+}
+#logoForLoginAlert {
+  width: 100px;
+  display: inline-block;
+}
+#deleteTextDiv {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+#areYouSure {
+  margin: 0px;
+  margin-top: 15px;
+}
+#deleteFile {
+  margin: 0px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.deleteConfirmation {
+  width: 165px;
+  font-weight: bold;
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 5px;
+  border: 2px solid;
+  cursor: pointer;
+  text-decoration: none;
+}
+#deleteBtnSection {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.hideShowBtn {
+  width: 5%;
+  height: 5%;
+  margin-right: 2%;
+  cursor: pointer;
+}

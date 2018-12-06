@@ -1,0 +1,71 @@
+/* .Main {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+.Main-Logo {
+  /* animation: App-logo-spin infinite 20s linear; */
+  height: 40vmin;
+  border-radius: 10px;
+}
+.Main-Greeting {
+  margin-top: 5%;
+}
+.Login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 30vh;
+  min-width: 50vh;
+  max-width: 90vh;
+  padding-top: .5vw;
+  padding-bottom: .5vw;
+  margin-bottom: 2vw;
+  margin-top: 0px;
+  padding-top: 0px;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+}
+.Login-Header {
+  font-size: calc(25px + 1vmin);
+}
+.Login-Individual-Sections {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+.Login-Individual-Sections > input {
+  min-width: 35vh;
+  text-align: center;
+  margin: .5vw;
+}
+.submitButton {
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+/* This will make image spin along on the z axis */
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
