@@ -571,9 +571,8 @@ export default class AddressBook extends Component {
     } else if (this.props.user.main.allUsers.length > 0) {
       return (
         <div id="addressBookContainer">
-          <p id="mainAddressBookTitle">Address Book
+          <p id="mainAddressBookTitle">Address Book</p>
           <button id="addContactBtn" onClick={this.addNewContact}>Add Contact</button>
-          </p>
           <div id="allUserCards">
             {printMembers}
           </div>
