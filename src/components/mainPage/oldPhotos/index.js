@@ -170,7 +170,7 @@ export default class OldPhotos extends Component {
                 onClose();
               }}>Save</button>
               <button className="photoConfirmation" onClick={() => {
-                this.clearBlur();
+                this.deleteConfirmation();
                 onClose();
               }}>Delete</button>
             </div>

@@ -33,7 +33,6 @@ export default class NewMessageModular extends Component {
   }
 
   render() {
-    console.log("NewMessageModular: ", this.props)
     return (
       <React.Fragment>
         {this.alert()}

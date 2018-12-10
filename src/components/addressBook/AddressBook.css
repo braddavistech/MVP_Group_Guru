@@ -15,7 +15,22 @@
 #addContactBtn {
   color: var(--section--title-headers);
   border: 3px solid var(--section--title-headers);
-  font-weight: bold
+  font-weight: bold;
+  text-align: center;
+  width: 18%;
+  margin-left: 41%;
+  border-radius: 10px;
+  margin-bottom: 1%;
+}
+#addContactBtn:hover {
+  background-color: var(--section--title-headers);
+  color: white;
+  border: 3px solid white;
+  font-weight: bold;
+  text-align: center;
+  width: 18%;
+  margin-left: 41%;
+  border-radius: 10px;
 }
 #allUserCards {
   height: 500px;
