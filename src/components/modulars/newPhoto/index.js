@@ -44,7 +44,7 @@ export default class NewPhotoModular extends Component {
         <img id="newPhotoPreview" src={this.state.webAddress} alt="Preview of File" />
         <section className="imageInputContainer">
           <label className="newImageLabel" htmlFor="newImageTitle">Title</label>
-          <input className="newImageInput" type="text" required={true} defaultValue={this.state.title} onChange={this.handleChange} id="title" name="imageTitle" placeholder="Enter Message Title"></input>
+          <input className="newImageInput" type="text" required={true} defaultValue={this.state.title} onChange={this.handleChange} id="photoTitle" name="imageTitle" placeholder="Enter Message Title"></input>
         </section>
         <section className="imageInputContainer">
           <label className="newImageLabel" htmlFor="newImageBody">Image URL</label>
@@ -52,7 +52,7 @@ export default class NewPhotoModular extends Component {
         </section>
         <section className="imageInputContainer">
           <label className="newImageLabel" htmlFor="newImageDescription">Description</label>
-          <input className="newImageInput" type="text" name="newImageDescription" defaultValue={this.state.description} onChange={this.handleChange} id="description" placeholder="Enter A Description Of The Image"></input>
+          <input className="newImageInput" type="text" name="newImageDescription" defaultValue={this.state.description} onChange={this.handleChange} id="photoDescription" placeholder="Enter A Description Of The Image"></input>
         </section>
       </React.Fragment>
     )
